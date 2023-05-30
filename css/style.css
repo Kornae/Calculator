@@ -1,0 +1,59 @@
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: #282f33;
+}
+
+.btn {
+    background: #5f6368;
+    color: #e8eaed;
+    border: 1px solid #5f636800;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 14vw;
+    padding: 20px;
+    margin: 4.5px;
+    font-size: 1.1rem;
+
+}
+
+.btn:hover {
+    border-color: transparent;
+    background-color: rgb(169, 187, 202);
+}
+
+.main-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    background: rgb(50, 53, 55);
+    border-radius: 10px;
+}
+
+.digit,
+.decimal {
+    background-color: rgb(65, 68, 71);
+}
+
+.equal {
+    background-color: rgb(72, 94, 114);
+}
+
+.button-row {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#display {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 30px;
+
+}
